@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "oxlint",
+    "lint:eslint": "eslint .",
+    "lint:oxlint": "oxlint",
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
     "preview": "vite preview"
@@ -20,7 +21,9 @@
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/parser": "^8.53.1",
     "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-better-tailwindcss": "^4.0.2",
     "oxfmt": "^0.27.0",
     "oxlint": "^1.42.0",
